@@ -17,8 +17,7 @@ a {
     margin-right: 0.5%;
 }
 
-
-
+/*Container (columns & rows*)/
 /*if you change the number of columns you are using, you'll need to re-adjust here*/
 
 .container .col-md-8 {
@@ -38,4 +37,22 @@ body {
     color: #212529;
     text-align: left;
     background-color: teal;
+}
+
+.col-md-6 .text2 {
+    color: teal;
+    background: lavender;
+    text-align: center;
+    bottom: 10px;
+    padding: 15px;
+    line-height: 30px;
+    margin-bottom: 0;
+    font-weight: 700;
+    width: 280px;
+    z-index: 1;
+    margin-bottom: 60px;
+}
+
+a:hover {
+    color: lightskyblue;
 }
